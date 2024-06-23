@@ -1,0 +1,266 @@
+:root {
+  --slate: #434455;
+  --navy-blue: #2E2F42;
+  --ocean: #404BBF;
+  --iris: #4D5AE5;
+  --white: #FFFFFF;
+  --cloud: #F4F4FD;
+  --cornflower: #E7E9FC;
+  --regular: 400;
+  --medium: 500;
+  --bold: 700;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: var(--regular);
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 56px;
+  line-height: 1.07;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 1.11;
+  font-weight: var(--bold);
+  color: var(--navy-blue);
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--navy-blue);
+  font-weight: var(--medium);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+.header > .container {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 1128px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.logo {
+  margin-right: 76px;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: var(--bold);
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+
+  .logo-dark {
+    color: var(--navy-blue);
+  }
+
+  .logo-light {
+    color: var(--cloud);
+  }
+}
+.nav {
+  display: flex;
+  align-items: center;
+  height: 72px;
+  flex-grow: 1;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.nav-menu-link {
+  display: block;
+  padding: 24px 0;
+  color: var(--navy-blue);
+  font-weight: 500;
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+
+  .contacts-link {
+    padding: 24px 0;
+    color: var(--navy-blue);
+  }
+
+  .contacts-link:hover,
+  .contacts-link:focus {
+    color: var(--ocean);
+  }
+}
+
+.nav-menu-link:hover, 
+.nav-menu-link:focus {
+  color: var(--ocean);
+}
+
+.hero {
+  background-color: var(--navy-blue);
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h1 {
+  color: var(--white);
+  text-align: center;
+}
+
+.hero button {
+  margin-top: 48px;
+  padding: 16px 32px;
+  border-radius: 4px;
+  background-color: var(--iris);
+  color: var(--white);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.hero button:hover,
+.hero button:focus {
+  background-color: var(--ocean);
+}
+
+.use-cases {
+  display: flex;
+  justify-content: center;
+}
+
+.use-cases h2 {
+  display: none;
+}
+
+.use-cases-list {
+  margin: 120px 0;
+  display: flex;
+}
+
+.use-cases-item {
+  width: 264px;
+  margin-right: 24px;
+}
+
+.use-cases-item:last-child {
+  margin-right: 0;
+}
+
+.use-cases-item h3 {
+  margin-bottom: 8px;
+}
+
+.team {
+  background-color: var(--cloud);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 0;
+}
+
+.team h2 {
+  margin-bottom: 72px;
+}
+
+.team-list {
+  display: flex;
+}
+
+.team-item {
+  background-color: var(--white);
+  margin-right: 24px;
+  padding-bottom: 32px;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08); 
+}
+
+.team-item:last-child {
+  margin-right: 0;
+}
+
+.team-item h3 {
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+
+.team-item p {
+  text-align: center;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 0 72px 0;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1128px;
+  justify-content: space-between;
+  margin-top: 72px;
+}
+
+.portfolio-item {
+  margin-bottom: 48px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: -7px;
+  padding: 32px 16px;
+  border-right: 1px solid var(--cornflower);
+  border-bottom: 1px solid var(--cornflower);
+  border-left: 1px solid var(--cornflower);
+}
+
+.portfolio-item h3 {
+  margin-bottom: 8px;
+}
+
+.footer {
+  background-color: var(--navy-blue);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer p {
+  width: 264px;
+  margin-top: 16px;
+  color: var(--cloud);
+}
