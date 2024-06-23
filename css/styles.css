@@ -71,7 +71,14 @@ button {
   padding: 0 15px;
 }
 
-nav.logo {
+.nav {
+  display: flex;
+  align-items: center;
+  height: 72px;
+  flex-grow: 1;
+}
+
+.logo {
   margin-right: 76px;
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -89,17 +96,13 @@ nav.logo {
     color: var(--cloud);
   }
 }
-.nav {
-  display: flex;
-  align-items: center;
-  height: 72px;
-  flex-grow: 1;
-}
+
 .nav-menu {
   display: flex;
   align-items: center;
   gap: 40px;
 }
+
 .nav-menu-link {
   display: block;
   padding: 24px 0;
