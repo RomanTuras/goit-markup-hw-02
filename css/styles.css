@@ -114,7 +114,6 @@ button {
 
 .hero {
   background-color: var(--navy-blue);
-  height: 600px;
 }
 
 .hero-title {
@@ -142,7 +141,6 @@ button {
 
 .team {
   background-color: var(--cloud);
-  padding: 120px 0;
 }
 
 .team-title {
@@ -152,11 +150,6 @@ button {
 
 .team-item {
   background-color: var(--white);
-  padding-bottom: 32px;
-}
-
-.portfolio {
-  padding: 120px 0 72px 0;
 }
 
 .portfolio-title {
@@ -165,7 +158,6 @@ button {
 }
 
 .card-container {
-  padding: 32px 16px;
   border-right: 1px solid var(--cornflower);
   border-bottom: 1px solid var(--cornflower);
   border-left: 1px solid var(--cornflower);
@@ -173,8 +165,6 @@ button {
 
 .footer {
   background-color: var(--navy-blue);
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
 
 .footer .footer-text {
