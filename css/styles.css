@@ -59,7 +59,6 @@ a {
 
 button {
   cursor: pointer;
-  border: none;
 }
 
 .logo {
@@ -135,10 +134,6 @@ button {
   background-color: var(--ocean);
 }
 
-.features-title {
-  display: none;
-}
-
 .team {
   background-color: var(--cloud);
 }
@@ -155,12 +150,6 @@ button {
 .portfolio-title {
   text-align: center;
   text-transform: capitalize;
-}
-
-.card-container {
-  border-right: 1px solid var(--cornflower);
-  border-bottom: 1px solid var(--cornflower);
-  border-left: 1px solid var(--cornflower);
 }
 
 .footer {
