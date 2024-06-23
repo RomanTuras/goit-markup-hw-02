@@ -71,12 +71,12 @@ button {
   padding: 0 15px;
 }
 
-.logo {
+nav.logo {
   margin-right: 76px;
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: var(--bold);
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
